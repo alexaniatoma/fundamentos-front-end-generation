@@ -7,10 +7,11 @@
     <meta name=""Keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="img/svg" href="./assets/img/favicon.svg">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <div id="titulo">
                 <h1>Generation Brasil</h1>
                 
@@ -30,7 +31,8 @@
         </div>
     </header>
     <main>
-        <section id="contact">
+
+        <section id="contact"class="flex" >
            <form action="#" method="submit" id="formulario">  
                 <label for="nome"> Nome: </label>
                 <input id="name" type="text" name="name" placeholder="Digite seu nome" required/>
@@ -51,7 +53,7 @@
                 <button type="submit"> Enviar </button>
 			</form>
 
-            <article id="mapa">
+            <article id="mapa" class="flex_start">
                 <p>Av. Paulista, 100</p>
 	            <p>São Paulo - SP</p>
 
@@ -70,19 +72,21 @@
         </section>
        
     </main>
-    <footer>
+    <footer class="flex">
+        
         <section id="redes_sociais">
+
             <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
             <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon" />
             </a>
         </section>
-        <h3>Feito com ❤️</h3>
+        <h3>Feito com ❤️ por Alexania Toma</h3>
     </footer>    
   
 </body>

@@ -7,10 +7,11 @@
     <meta name=""Keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="img/svg" href="./assets/img/favicon.svg">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <div id="titulo">
                 <h1>Generation Brasil</h1>
                 
@@ -30,19 +31,19 @@
         </div>
     </header>
     <main>
-        <section id="about">
-            <h2>Sobre a Generation Brasil</h2>
-            <div id="conteudo">
-                <img src= "./assets/img/user_02.svg" alt="Foto do criador do conteudo" width="250"/>
+        <section id="about" class= "flex_start">
+            <h2>Sobre a Alexania Toma</h2>
+            <div id="conteudo" class="flex">
+                <img src="https://github.com/alexaniatoma.png" alt="foto do perfil do github" width="250" class="img_profile"/>
                 <article id="sobre_texto">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, in!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minus nobis saepe necessitatibus suscipit accusamus fugiat sint. Molestiae, numquam repudiandae.</p>
                 </article>
             </div>
         </section>
-        <section id="video">
-            <h2>Meu vídeo favorito</h2>
-            <div class="youtube">
+        <section id="video" class="flex_start">
+            <h2>Meu vídeo favorito: </h2>
+            <div id="youtube" class="flex">
                 <iframe
                 width="560"
                 height="315"
@@ -53,20 +54,20 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="flex">
         <section id="redes_sociais">
 
             <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
             <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon" />
             </a>
         </section>
-        <h3>Feito com ❤️</h3>
+        <h3>Feito com ❤️ por Alexania Toma</h3>
     </footer>    
   
 </body>
