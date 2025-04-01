@@ -11,4 +11,4 @@
 <h3>Deploy</h3>
 <p>Este site está disponível publicamente através do GitHub Pages. Você pode acessar a versão online pelo link abaixo:</p>
 
-<a href= "https://alexaniatoma.github.io/fundamentos-front-end-generation/" target="_blank">Portfólio Pessoal </a>
+<a href= "https://alexaniatoma.github.io/fundamentos-front-end-generation/">Portfólio Pessoal </a>
