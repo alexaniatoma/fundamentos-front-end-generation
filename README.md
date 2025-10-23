@@ -5,7 +5,7 @@
 <ul>
   <li>HTML : Estrutura de conteúdo e marcação do site</li>
   <li>CSS: Estilização e layout das páginas</li>
-  <li>JavaScritp: Funcionalidades e interatividade do site</li>
+  <li>JavaScritp: Funcionalidades e interatividade do site (Autenticação utilizando Regex)</li>
 </ul>
 
 <h3>Deploy</h3>
